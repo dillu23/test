@@ -3,6 +3,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Date;
 import java.util.Random;
+//import java
 class newthread implements Runnable{
 	Thread t;
 	void send_udp(int num,int size,int itrs) throws Exception{
